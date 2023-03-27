@@ -1,0 +1,72 @@
+// Import all of Bootstrap's CSS
+@import "~bootswatch/dist/minty/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/minty/bootswatch";
+
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+i {
+  color: #77c2ad;
+}
+
+.bg_leaf_pattern {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bg_leaf_pattern:after {
+  z-index: -1;
+  content: "";
+  opacity: 0.33;
+  background-image: url("images/bg_og.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.customJumbotron {
+  width: 100%;
+  text-align: center;
+}
+
+.heroImage {
+  max-width: 20rem;
+}
+
+.articleCard {
+  position: relative;
+  bottom: 5rem;
+}
+
+.fullBleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.card-img {
+  max-height: 18rem;
+}
+
+.site-footer {
+  background: rgb(119, 194, 173);
+  background: radial-gradient(
+    circle,
+    rgba(119, 194, 173, 1) 0%,
+    rgba(255, 255, 255, 1) 82%
+  );
+  padding: 15px 0;
+}
