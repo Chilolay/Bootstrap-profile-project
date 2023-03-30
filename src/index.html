@@ -17,7 +17,7 @@
 <body class="bg_leaf_pattern">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">I Wet My Plants</a>
+        <a class="navbar-brand" href="index.html">I Wet My Plants</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,10 +28,10 @@
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Care Guides</a>
+                    <a class="nav-link" href="./pages/CareGuides/careGuides.html">Care Guides</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Articles</a>
+                    <a class="nav-link" href="./pages/Articles/articles.html">Articles</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -49,70 +49,80 @@
                     your plants as well as tips and solutions for common plant related problems.</h5>
             </div>
             <div class="col">
-                <img src="images/potted_monstera.png" alt="Monstera plant in pot" class="mb-5 heroImage">
+                <img src="./images/potted_monstera.png" alt="Monstera plant in pot" class="mb-5 heroImage">
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="card-deck pb-5">
-            <div class="card articleCard">
-                <a href="">
-                    <div class="card-body">
-                        <h3 class="card-text text-center">
-                            Toxic Plants
-                        </h3>
-                        <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
-                    </div>
-                </a>
+        <div class="row row-cols-1 row-cols-md-3 pb-5">
+            <div class="col">
+                <div class="card articleCard">
+                    <a href="./pages/Articles/toxicPlants.html">
+                        <div class="card-body">
+                            <h3 class="card-text text-center">
+                                Toxic Plants
+                            </h3>
+                            <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card articleCard">
-                <a href="">
-                    <div class="card-body">
-                        <h3 class="card-text text-center">
-                            Low Light Plants
-                        </h3>
-                        <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
-                    </div>
-                </a>
+            <div class="col">
+                <div class="card articleCard">
+                    <a href="./pages/Articles/articles.html">
+                        <div class="card-body">
+                            <h3 class="card-text text-center">
+                                Low Light Plants
+                            </h3>
+                            <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card articleCard">
-                <a href="">
-                    <div class="card-body">
-                        <h3 class="card-text text-center">
-                            Repotting Guide
-                        </h3>
-                        <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
-                    </div>
-                </a>
+            <div class="col">
+                <div class="card articleCard">
+                    <a href="./pages/Articles/articles.html">
+                        <div class="card-body">
+                            <h3 class="card-text text-center">
+                                Repotting Guide
+                            </h3>
+                            <i class="fa-solid fa-arrow-right-long fa-2x fa-pull-right"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
         <div class="fullBleed bg-light py-5 margin-100">
             <h2 class="pb-3">Check Out Our In Depth Plant Care Guides</h2>
-            <div class="row d-flex justify-content-center">
-                <div class="card-deck">
-                    <div class="card mx-5">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                    <div class="card h-100 mx-5">
                         <div class="card-body">
                             <h3 class="card-text">Croton</h3>
-                            <img src="images/croton.png" alt="Croton plant illustration" class="card-img">
+                            <img src="./images/croton.png" alt="Croton plant illustration" class="card-img">
                         </div>
                     </div>
-                    <div class="card mx-5">
+                </div>
+                <div class="col">
+                    <div class="card h-100 mx-5">
                         <div class="card-body">
-                            <h3 class="card-text">Snake Plant</h3>
-                            <img src="images/snakeplant.png" alt="Snake plant illustration" class="card-img">
+                            <h3 class="card-text">Ficus</h3>
+                            <img src="./images/ficus.png" alt="Ficus plant illustration" class="card-img">
                         </div>
                     </div>
-                    <div class="card mx-5">
+                </div>
+                <div class="col">
+                    <div class="card h-100 mx-5">
                         <div class="card-body">
                             <h3 class="card-text">Alocasia</h3>
-                            <img src="images/Alocasia.png" alt="Alocasia plant illustration" class="card-img">
+                            <img src="./images/alocasia.png" alt="Alocasia plant illustration" class="card-img">
                         </div>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn btn-lg btn-primary m-4">See All Care Guides</a>
+            <a href="./pages/CareGuides/careGuides.html" class="btn btn-lg btn-primary m-4">See All Care Guides</a>
         </div>
 
         <div class="fullBleed bg-light py-5 margin-100">
@@ -175,7 +185,7 @@
     </div>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container sticky-bottom">
             <div class="row">
                 <div class="col text-center">
                     <p><strong>Coded by Chloe Boyd</strong></p>
