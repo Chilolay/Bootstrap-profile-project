@@ -4,15 +4,16 @@
 @import "~bootswatch/dist/minty/bootswatch";
 
 $card-height: 100%;
+$primary-color: #77c2ad;
+// $secondary-color: ;
 
-html,
-body {
-  min-height: 100%;
-  text-align: center;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 i {
-  color: #77c2ad;
+  color: $primary-color;
 }
 
 .bg_leaf_pattern {
@@ -22,7 +23,7 @@ i {
 .bg_leaf_pattern:after {
   z-index: -1;
   content: "";
-  opacity: 0.33;
+  opacity: 0.10;
   background-image: url("../images/bg_og.png");
   width: 100%;
   height: 100%;
@@ -31,7 +32,7 @@ i {
   background-size: cover;
   top: 0px;
   left: 0px;
-  position: absolute;
+  position: fixed;
 }
 
 .customJumbotron {
@@ -69,6 +70,34 @@ i {
   bottom: 5rem;
 }
 
+.plantCards {
+  .card {
+    display: flex;
+    align-items: center;
+  }
+  .card-img {
+    max-height: 15rem;
+    max-width: 10rem;
+  }
+}
+
+.tipsCards {
+  margin-bottom: 8rem;
+  .card {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  h3,
+  p {
+    text-align: center;
+  }
+  .card-body {
+      flex-direction: column;
+  display: flex;
+  align-items: center;
+  }
+}
+
 .fullBleed {
   width: 100vw;
   position: relative;
@@ -76,23 +105,6 @@ i {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-}
-
-.careCards {
-  img {
-    max-height: 20rem;
-    max-width: 10rem;
-  }
-  .card {
-    height: $card-height;
-    display: flex;
-    align-items: center;
-  }
-}
-
-.card-img {
-  max-height: 15rem;
-  max-width: 10rem;
 }
 
 .site-footer {
@@ -103,12 +115,21 @@ i {
     rgba(255, 255, 255, 1) 82%
   );
   padding: 15px 0;
-}
-
-ul {
-  list-style: none;
+  position: relative;
+  top: calc(10vh);
+  width: 100%;
+  z-index:100;
+  height:50px;
 }
 
 .margin-100 {
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
+}
+
+.content{
+    min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
 }

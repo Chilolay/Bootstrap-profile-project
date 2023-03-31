@@ -1,0 +1,37 @@
+@import "~bootswatch/dist/minty/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/minty/bootswatch";
+
+$card-height: 100%;
+$primary-color: #77c2ad;
+
+.careCards {
+  .col {
+    margin-bottom: 2rem;
+  }
+  img {
+    max-height: 20rem;
+    max-width: 10rem;
+  }
+  .card {
+    height: $card-height;
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+
+  }
+
+  .careguide-card-body{
+  flex-flow: column-reverse;
+  display:flex;
+}
+
+  .card-title{
+    text-align: center;
+  }
+}
+
+.margin-bottom-extended{
+  margin-bottom: 7rem;
+}
+

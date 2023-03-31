@@ -1,1 +1,10 @@
+@import "~bootswatch/dist/minty/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/minty/bootswatch";
 
+$card-height: 100%;
+$primary-color: #77c2ad;
+
+ul {
+  list-style: none;
+}
