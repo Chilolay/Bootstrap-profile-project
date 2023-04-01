@@ -5,6 +5,11 @@
 $card-height: 100%;
 $primary-color: #77c2ad;
 
-ul {
-  list-style: none;
+.container {
+  h1 {
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
 }
