@@ -1,17 +1,7 @@
 # Bootstrap Profile Project
 ## I Wet My Plants
 
-I Wet My Plants is a portfolio project I created for my Nucamp Bootstrap course. It is a houseplant care site that gives straight forward easy to understand information for houseplant caregivers. It covers a variety of common plant problems and gives solutions in the form of internal and external articles. The goal of this project is to compress the essential information needed to successfully care for houseplants into one place in a way thats easy to digest. In the future I would love to build this out to a fledged site complete with many care guides and articles.
-
-## Table of Contents
-- Features
-- Tech
-- Sources
-
-## Features
-- Home page features links to helpful external articles
-- Care Guides are simply styled but give very detailed information
-- Articles compress information from many different sources to give the user as much info in one place
+I Wet My Plants is a portfolio project I created for my Nucamp Bootstrap course. It is a houseplant care site that gives straight forward easy to understand information for houseplant caregivers. It covers a variety of common plant problems and gives solutions in the form of internal and external articles. The goal of this project is to compress the essential information needed to successfully care for houseplants into one place in a way thats easy to digest. In the future I would love to build this out to a full fledged site complete with many care guides and articles.
 
 ## Tech
 - [Bootstrap](https://getbootstrap.com/)
