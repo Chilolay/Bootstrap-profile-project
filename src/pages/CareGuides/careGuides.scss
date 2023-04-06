@@ -6,6 +6,7 @@ $card-height: 100%;
 $primary-color: #77c2ad;
 
 .careCards {
+  margin-bottom: 5rem;
   .col {
     margin-bottom: 2rem;
   }
@@ -18,20 +19,22 @@ $primary-color: #77c2ad;
     display: flex;
     align-items: center;
     padding-top: 1.5rem;
-
   }
 
-  .careguide-card-body{
-  flex-flow: column-reverse;
-  display:flex;
-}
+  .careguide-card-body {
+    flex-flow: column-reverse;
+    display: flex;
+  }
 
-  .card-title{
+  .card-title {
     text-align: center;
   }
 }
 
-.margin-bottom-extended{
-  margin-bottom: 7rem;
+.airPlantImg {
+  justify-content: center;
 }
 
+.margin-bottom-extended {
+  margin-bottom: 1rem;
+}

@@ -15,6 +15,7 @@ export default {
           __dirname,
           "src/pages/Articles/toxicPlants.html"
         ),
+        AirPlantCare: path.resolve(__dirname, "src/pages/CareGuides/AirPlantCare.html")
       },
     },
     outDir: "../dist",

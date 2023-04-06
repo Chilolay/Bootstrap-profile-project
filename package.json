@@ -6,11 +6,13 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist -b production"
   },
   "author": "Chloe Boyd",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.59.3",
     "vite": "^4.2.0"
   },
