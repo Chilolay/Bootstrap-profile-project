@@ -16,49 +16,50 @@
 
 <body class="bg_leaf_pattern">
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">I Wet My Plants</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/CareGuides/careGuides.html">Care Guides</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./pages/Articles/articles.html">Articles</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">I Wet My Plants</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse show" id="navbarColor01" >
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.iwetmyplants.info">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/CareGuides/careGuides.html">Care Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/Articles/articles.html">Articles</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </nav>
-
     <div class="content">
-        <div class="jumbotron customJumbotron">
-            <div class="row">
-                <div class="col mt-3 text-center">
+        <div class="jumbotron customJumbotronWrapper">
+            <div class="row customJumbotron">
+                <div class="col ml-5 text-center">
                     <h1 class="mb-4">Welcome to I Wet My Plants</h1>
                     <h5>The go to place for houseplant care. We have many care guides covering all you need to know
                         about
                         your plants as well as tips and solutions for common plant related problems.</h5>
                 </div>
-                <div class="col">
-                    <img src="./images/potted_monstera.png" alt="Monstera plant in pot" class="mb-5 heroImage">
+                <div class="col d-none d-sm-block">
+                    <img src="./images/potted_monstera.webp" alt="Monstera plant in pot" class="mb-5 heroImage">
                 </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 pb-5">
-                <div class="col">
+                <div class="col my-2">
                     <div class="card articleCard">
                         <a href="./pages/Articles/toxicPlants.html">
                             <div class="card-body">
@@ -70,7 +71,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col my-2">
                     <div class="card articleCard">
                         <a href="./pages/Articles/articles.html">
                             <div class="card-body">
@@ -82,7 +83,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col my-2">
                     <div class="card articleCard">
                         <a href="./pages/Articles/articles.html">
                             <div class="card-body">
@@ -98,31 +99,30 @@
         </div>
 
         <div class="container-fluid">
-            <div class="bg-light py-5 fullBleed margin-100 plantCards">
+            <div class="bg-light py-5 margin-100 plantCards">
                 <h2 class="text-center pb-3">Check Out Our In Depth Plant Care Guides</h2>
                 <div class="row row-cols-1 row-cols-md-3">
                     <div class="col">
                         <a href="" class="card h-100 mx-5 careGuideCard">
                             <div class="card-body">
                                 <h3 class="card-text text-center">Croton</h3>
-                                <img src="./images/croton.png" alt="Croton plant illustration" class="card-img">
+                                <img src="./images/croton.webp" alt="Croton plant illustration" class="card-img">
                             </div>
                         </a>
                     </div>
-                    <div class="col">
-
-                        <a href="" class="card h-100 mx-5 careGuideCard" >
+                    <div class="col d-none d-sm-block">
+                        <a href="" class="card h-100 mx-5 careGuideCard">
                             <div class="card-body">
                                 <h3 class="card-text text-center">Ficus</h3>
-                                <img src="./images/ficus.png" alt="Ficus plant illustration" class="card-img">
+                                <img src="./images/ficus.webp" alt="Ficus plant illustration" class="card-img">
                             </div>
                         </a>
                     </div>
-                    <div class="col">
+                    <div class="col d-none d-sm-block">
                         <a href="" class="card h-100 mx-5 careGuideCard">
-                            <div  class="card-body">
+                            <div class="card-body">
                                 <h3 class="card-text text-center">Alocasia</h3>
-                                <img src="./images/alocasia.png" alt="Alocasia plant illustration" class="card-img">
+                                <img src="./images/alocasia.webp" alt="Alocasia plant illustration" class="card-img">
                             </div>
                         </a>
                     </div>
@@ -133,50 +133,52 @@
                 </div>
             </div>
 
-            <div class="fullBleed bg-light py-5 tipsCards">
+            <div class="bg-light py-5 tipsCards">
                 <h2 class="pb-3 text-center">Tips, Solutions, How To's</h2>
                 <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
                     <div class="col">
                         <div class="card h-100">
                             <figure class="size">
-                                <img src="./images/EartheasyImg-min.png" alt="plant under light" class="card-img-top">
-                                <figcaption><a href="https://eartheasy.com/">eartheasy</a></figcaption>
+                                <img src="./images/earthEasyImg.webp" alt="plant under light" class="card-img-top">
+                                <figcaption class="px-2"><a href="https://eartheasy.com/" target="_blank">eartheasy</a></figcaption>
                             </figure>
                             <div class="card-body">
                                 <h3 class="card-title">The Best Grow Lights for Indoor Plants</h3>
                                 <p class="card-text">How to choose supplemental lighting to help your plants thrive.</p>
                                 <a href="https://learn.eartheasy.com/guides/the-best-grow-lights-for-indoor-plants/"
-                                    class="btn btn-primary">Read The Article</a>
+                                    target="_blank" class="btn btn-primary">Read The Article</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
                             <figure class="size">
-                                <img src=".//images/ikea-greenhouse-cabinet-hero-979bdaf2be6f4e3c9501e75ee4bbc20d-min.png"
-                                    alt="ikea greenhouse cabinet with plants" class="card-img-top">
-                                <figcaption><a href="https://www.thespruce.com/">The Spruce</a> / Cori Sears
+                                <img src="./images/ikeaGreenhouse.webp" alt="ikea greenhouse cabinet with plants"
+                                    class="card-img-top">
+                                <figcaption class="px-2"><a href="https://www.thespruce.com/" target="_blank">The Spruce</a> / Cori
+                                    Sears
                                 </figcaption>
                             </figure>
                             <div class="card-body">
                                 <h3 class="card-title">How to Make an IKEA Greenhouse Cabinet</h3>
                                 <p class="card-text">The trendy IKEA DIY that every plant parent needs.</p>
                                 <a href="https://www.thespruce.com/make-an-ikea-greenhouse-cabinet-5521629"
-                                    class="btn btn-primary">Read The Article</a>
+                                    target="_blank" class="btn btn-primary">Read The Article</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
                             <figure class="size">
-                                <img src="./images/houseplant-tools-2-720x540-min.png" alt="Plants being repotted"
+                                <img src="./images/houseplantTools.webp" alt="Plants being repotted"
                                     class="card-img-top">
-                                <figcaption><a href="https://www.ruralsprout.com/">Rural Sprout</a></figcaption>
+                                <figcaption class="px-2"><a href="https://www.ruralsprout.com/" target="_blank">Rural Sprout</a>
+                                </figcaption>
                             </figure>
                             <div class="card-body">
                                 <h3 class="card-title">Houseplant Tool Guide: 8 Must-Have & 12 Nice-To-Have Tools For
                                     Your Home Jungle</h3>
-                                <a href="https://www.ruralsprout.com/houseplant-tool-guide/"
+                                <a href="https://www.ruralsprout.com/houseplant-tool-guide/" target="_blank"
                                     class="btn btn-primary">Read The Article</a>
                             </div>
                         </div>
@@ -184,14 +186,15 @@
                     <div class="col">
                         <div class="card h-100">
                             <figure class="size">
-                                <img src="./images/B82DD065-5D39-4C00-AA2D-820CFCA33478-min.png"
+                                <img src="./images/B82DD065-5D39-4C00-AA2D-820CFCA33478.webp"
                                     alt="Plants growing in containers of water" class="card-img-top">
-                                <figcaption><a href="https://modernbotanical.shop/">Modern Botanical</a></figcaption>
+                                <figcaption class="px-2"><a href="https://modernbotanical.shop/" target="_blank">Modern Botanical</a>
+                                </figcaption>
                             </figure>
                             <div class="card-body">
                                 <h3 class="card-title">The Internet's Best Guide to Growing Plants in Water</h3>
                                 <a href="https://modernbotanical.shop/blogs/blog/a-guide-to-growing-plants-in-water"
-                                    class="btn btn-primary">Read The Article</a>
+                                    target="_blank" class="btn btn-primary">Read The Article</a>
                             </div>
                         </div>
                     </div>
@@ -211,11 +214,7 @@
         </div>
     </footer>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
     <script type="module" src="./js/main.js"></script>
-</body>
+
 
 </html>

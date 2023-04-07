@@ -14,7 +14,53 @@ $primary-color: #77c2ad;
   }
 }
 
- .size img {
-  max-height: 300px;
+.size img {
+  max-height: 18.75rem;
   object-fit: cover;
+}
+
+figcaption {
+  margin-left: 1rem;
+}
+
+.col {
+  margin-bottom: 2rem;
+
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.headerImage {
+  margin: auto;
+  display: block;
+
+  @include media-breakpoint-down(sm) {
+    width: 200px;
+  }
+}
+
+.articleHeaders {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  background: rgba(black, 0.5);
+  width: 100%;
+  text-align: center;
+  z-index:100;
+}
+
+.articleImg {
+  height: 18.75rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    transition: 0.35s all ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
 }

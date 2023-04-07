@@ -38,3 +38,36 @@ $primary-color: #77c2ad;
 .margin-bottom-extended {
   margin-bottom: 1rem;
 }
+
+.careGuideCards {
+  background-image: url("../../images/parabolic-pentagon.svg");
+  box-shadow: 0 0 18px 18px white inset;
+  background-position: center;
+  background-size: 160%;
+
+  transition: all .5s;
+  transition-property: background-size, transform, box-shadow;
+}
+.careGuideCards:hover {
+  background-size: 200%;
+  transform: scale(1.05);
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.article {
+  .row {
+    .col{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.headerImage {
+  margin: auto;
+  display: block;
+
+  @include media-breakpoint-down(sm) {
+    width: 200px;
+  }
+}
